@@ -1,0 +1,41 @@
+@import variables
+@import blocks/comment
+@import blocks/menu
+
+#main p 
+	color: #00ff00
+	width: 97%
+
+.redbox 
+	background-color: #ff0000
+	color: #000000
+
+
+
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+
+
+.container
+  width: 100%
+
+article[role="main"]
+  float: left
+  width: 600px / 960px * 100%
+
+
+aside[role="complementary"]
+  float: right
+  width: 300px / 960px * 100%
+
+
+.header
+  z-index: $zHeader
+
+.overlay 
+  z-index: $zOverlay
+
+.message 
+  z-index: $zMessage
