@@ -1,0 +1,265 @@
+@media all and (min-width: 993px) and (max-width: 1200px) {
+	.wrapp {
+		width: 960px;
+	}
+
+	/*************************         header start        *************************/
+
+	.papperHeader {
+		font-size: 27px;
+	}
+
+	nav.mainNav {
+		width: auto;
+	}
+	nav.mainNav ul {
+		padding-left: 5px;
+	}
+
+	nav.mainNav ul li {
+		margin-left: 20px;
+	}
+	header.navHeader.fixedHeader .mainNav li {
+		margin-left: 15px;
+	}
+
+	/*************************         header end        *************************/
+
+	/*************************         headliner start        *************************/
+
+	section.headliner .headlinerAngle {
+		width: 250px;
+	}
+	section.headliner .headlinerAngle h1 {
+		font-size: 2.7em;
+	}
+
+	section.headliner .headlinerCircle {
+		width: 330px;
+		height: 330px;
+		padding-top: 100px;
+	}
+
+	section.headliner .headlinerCircle ul li {
+		font-size: 19px;
+	}
+	section.headliner .headlinerCircle ul li:before {
+		left: -40px;
+	}
+
+	/*************************         calc start        *************************/
+
+	.paperCalcSide {
+		width: 250px;
+	}
+
+	.paperCalc select {
+		padding: 11px 13px;
+	}
+
+	.paperCalc label:after {
+		top: 37px;
+	}
+	.paperCalcSide h2 {
+		font-size: 17px;
+	}
+
+	/*************************         calc end        *************************/
+
+	/*************************         headliner end        *************************/
+
+	/*************************        get price calc start        *************************/
+
+	section.getPrice .paperCalc {
+		width: 70%
+	}
+
+	section.getPrice .paperCalc fieldset .selectWrapper {
+		
+	}
+
+
+	/*************************        get price calc end        *************************/
+
+	/*************************         why us start        *************************/
+
+
+
+	/*************************         why us end        *************************/
+
+	/*************************         savings start        *************************/
+
+	section.savings div.savingsEl {	
+		padding: 20px 15px 20px 15px;
+	}
+
+	section.savings div.savingsTitle {
+		font-size: 25px;
+		padding: 20px 30px 20px 0;
+	}
+
+	/*************************         savings end        *************************/
+
+	/*************************         how does it works start        *************************/
+
+	section.howItWorks ul {
+		margin: 80px 0;
+	}
+
+	section.howItWorks ul li {
+		width: 180px;
+		height: 180px;
+		padding-top: 100px;
+	}
+
+	section.howItWorks ul li:nth-child(1),
+	section.howItWorks ul li:nth-child(3) {
+		margin-top: 140px;
+	}
+
+
+	section.howItWorks ul li:nth-child(1) img {
+		width: 106px;
+		height: 89px;
+	}
+	section.howItWorks ul li:nth-child(2) img {
+		width: 105px;
+		height: 79px;
+	}
+	section.howItWorks ul li:nth-child(3) img {
+		width: 106px;
+		height: 107px;
+	}
+	section.howItWorks ul li:nth-child(4) img {
+		width: 129px;
+		height: 87px;
+	}
+
+	section.howItWorks ul li:after {
+		right: -40%;
+	}
+
+
+	/*************************         how does it works end        *************************/
+
+	/*************************         learn more start        *************************/
+
+	section.learMore div h2 {
+		font-size: 18px;
+	}
+	section.learMore div p {
+		font-size: 15px;
+	}
+
+	section.learMore div a {
+		width: 50%;
+	}
+
+	/*************************         learn more end        *************************/
+
+	/*************************         WHAT TYPES start        *************************/
+
+	section.whatTypes ul {
+		width: 28%;
+	}
+
+	section.whatTypes ul li {
+		font-weight: 600;
+	}
+
+	/*************************         WHAT TYPES end        *************************/
+
+	/*************************         slider start        *************************/
+
+	.sliderWrapp .slider {
+		width: 600px;
+	}
+
+	/*************************         slider end        *************************/
+
+	/*************************       What We Offer start        *************************/
+
+	section.whatWeOffer .whatWeOfferCol p {
+		font-size: 16px;
+	}
+
+	/*************************       What We Offer end        *************************/
+
+	/*************************        page sidebar start        *************************/
+
+	aside.sidebar {
+		width: 250px;
+	}
+
+	/*************************        page sidebar end        *************************/
+
+	/*************************        discounts start        *************************/
+
+		.discountsSafe {
+			padding: 15px 20px;
+		}
+
+		main.pageMain .pageButtonBox {
+			padding: 30px 10px;
+		}
+
+		main.pageMain .pageButtonBox h2 {
+			font-size: 19px;
+		}
+
+		main.pageMain .pageButtonBox a.papperButton {
+			font-size: 13px;
+			padding: 12px 10px;
+		}
+
+		main.pageMain .twoButtonBox a.papperButton:nth-of-type(1) {
+			margin-right: 10px;
+		}
+		
+		main.pageMain p {
+			font-size: 14px;
+		}
+
+	/*************************        discounts end        *************************/
+
+	/*************************        faq start        *************************/
+
+	main.pageMain .faqSuperImg h5,
+	main.pageMain .faqSuperImg h6 {
+		font-size: 26px;
+	}
+
+	.faqSuperArrow {
+		margin-top: -70px;
+	}
+
+	/*************************        faq end        *************************/
+
+	/*************************        Prices Overview start        *************************/
+
+	main.prices section.savings div h3 span {
+		display: block;
+	}
+
+	.pricesPic li {
+		width: 41%;
+	}
+	.pricesPic li:nth-child(odd) {
+		margin-right: 2%;
+	}
+
+	.pricesPic li:nth-child(3) {
+		margin-left: 5%;
+	}
+
+	.pricesPic li:nth-child(3),
+	.pricesPic li:nth-child(4) {
+		margin-top: 2%;
+	}
+
+	main.pageMain .pricesPic h4 {
+		font-size: 14px;
+	}
+
+	/*************************        Prices Overview end        *************************/
+}

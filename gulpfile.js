@@ -43,6 +43,14 @@ gulp.task('sass', function () {
 });
 
 
+gulp.task('base', function () {
+  return gulp.src('css/parts/base.css')
+    .pipe(concat('base.min.css'))
+    .pipe(cssmin())
+    .pipe(gulp.dest('css/'));
+});
+
+
 gulp.task('watch', function () {
 	gulp.watch('sass/*.sass', ['sass']);
 	//gulp.watch('js/*.js', ['js']);

@@ -1,0 +1,46 @@
+@media all and (max-width: 1060px) {
+	.wrapp {
+		width: 900px;
+	}
+
+	.content {
+		width: 68%;
+	}
+
+	.section--header {
+		padding-bottom: 150px;
+		background-position: 40%;
+	}
+
+	.section--pageCarousel {
+		padding-bottom: 40px;
+		
+	}
+
+	.lazyBg--page-carousel {
+		background-image: url('i/page-header-pic-laptop.jpg');
+	}
+
+
+	.slide {
+		width: 700px;
+		margin: 0 30px;
+	}
+
+	.tableCalc tbody tr td,
+	.tableCalc tbody tr td:first-child {
+		font-size: 13px;
+	}
+
+	.tableCalc thead th {
+		font-size: 14px;
+	}
+
+	.calc__title {
+		margin-top: 65px;
+	}
+
+	.item--perk {
+		height: 300px;
+	}
+}

@@ -1,0 +1,786 @@
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.wrapp {
+		width: 100%;
+		padding: 0 5px;
+	}
+
+	/*************************         header start        *************************/
+
+	.papperHeader {
+		font-size: 27px;
+	}
+
+	header.navHeader {
+		padding-top: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 9999;
+		padding-top: 0;
+		background: #fff;
+		box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15);
+	}
+
+	nav.mobileNav ul.mobileNavMain li.liveChatButton {
+		display: none;
+	}
+
+	nav.mainNav {
+		display: none;
+	}
+
+	nav.mobileNav {
+		display: block;
+		float: right;
+		width: auto;
+		padding-top: 0;
+	}
+
+	nav.mobileNav .mobileNavMain {
+		text-align: right;
+	}
+
+	nav.mobileNav .signInButton .papperButton {
+		padding-left:  10px;
+		padding-right: 10px;
+	}
+
+	.hamburgerButton {
+		display: block;
+		margin-top: 0;
+	}
+
+
+
+	header.navHeader .wrapp{
+		padding: 10px 5px;
+	}
+
+	.logo,
+	header.navHeader.fixedHeader .logo {
+		margin-top: 0;
+		margin-left: 10px;
+		width: 130px;
+		height: 40px;
+	}
+
+
+	header.navHeader.fixedHeader .mainNav li {
+		margin-left: 15px;
+	}
+
+	header.navHeader.fixedHeader + section.headliner,
+	header.navHeader.fixedHeader + div.wrapp.main {
+		margin-top: 60px;
+	}
+
+	/*************************         header end        *************************/
+
+	/*************************         headliner start        *************************/
+
+
+	section.headliner {
+		margin-top: 60px;
+		overflow: visible;
+	}
+
+	section.headliner .wrapp {
+		padding: 0;
+	}
+
+	section.headliner .headlinerAngle {
+		width: 40%;
+		padding-left: 15px;
+	}
+	section.headliner .headlinerAngle h1 {
+		font-size: 1.8em;
+		margin-bottom: 50px;
+	}
+
+	section.headliner .headlinerAngle .headlinerButton {
+		font-size: 13px;
+	}
+
+	section.headliner .headlinerCircle {
+		float: right;
+		width: 270px;
+		height: auto;
+		padding-top: 50px;
+		padding-left: 50px;
+		border: none;
+		margin-left: 0;
+	}
+
+	section.headliner .headlinerCircle .headlinerPic1 {
+		width: 100px;
+		height: 80px;
+		top: -50px;
+	}
+	section.headliner .headlinerCircle .headlinerPic2 {
+		width: 70px;
+		height: 70px;
+		left: 40%;
+		bottom: -30px;
+	}
+
+	section.headliner .headlinerCircle ul li {
+		font-size: 17px;
+	}
+	section.headliner .headlinerCircle ul li:before {
+		left: -40px;
+	}
+
+	/*************************         calc start        *************************/
+
+
+
+
+	.paperCalcSide {
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px; 
+	}
+
+	.paperCalc select {
+		padding: 7px 9px;
+		margin-top: 3px;
+	}
+
+	.paperCalcSide .paperCalc {
+		text-align: center;
+		
+		
+	}
+
+	.paperCalcSide .paperCalc .paperCalcPriceField {
+		text-align: center;
+		
+	}
+
+	.paperCalcSide .paperCalc .selectWrapper {
+		display: inline-block;
+		width: 48%;		
+		margin-right: 2%;
+		text-align: left;
+	}
+
+	.paperCalcSide .paperCalc .selectWrapper:nth-child(2),
+	.paperCalcSide .paperCalc .selectWrapper:nth-child(4) {
+		margin-right: 0;
+	}
+
+	.paperCalc button.paperCalcSubmit {
+		display: block;
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+
+	.paperCalcSide h2 {
+		font-size: 19px;
+	}
+
+	.paperCalc fieldset.paperCalcPriceField div {
+		vertical-align: middle;
+		font-size: 17px;
+	}
+	.paperCalc fieldset.paperCalcPriceField div .paperCalcPrice {
+		font-size: 20px;
+	}
+
+
+	/*************************         calc end        *************************/
+
+	/*************************         headliner end        *************************/
+
+	/*************************        get price calc start        *************************/
+
+	section.getPrice .paperCalc {
+		width: 100%
+	}
+
+	section.getPrice .paperCalc fieldset .selectWrapper {
+		width: 48%;
+		margin-right: 2%;
+	}
+
+	/*************************        get price calc end        *************************/
+
+	/*************************         why us start        *************************/
+
+	section.whyUs div ul {
+		width: 90%;
+		margin-bottom: 20px;
+
+	}
+	section.whyUs div ul li.whyUsIcons {
+		height: 50px;
+		background-size: contain !important;
+	}
+
+	section.whyUs div ul:last-child {
+		margin-top: 30px;
+	}
+
+	/*************************         why us end        *************************/
+
+	/*************************         savings start        *************************/
+
+	section.savings {
+		text-align: center;
+		padding: 10px 0;		
+	}
+
+	section.savings hr.tablet-hr {
+		display: block;
+	}
+
+	section.savings div.savingsEl {	
+		padding: 10px 15px 10px 15px;
+	}
+
+	section.savings div.savingsEl:nth-child(3) {
+		border-right: none;
+	}
+
+	section.savings div.savingsTitle {
+		font-size: 22px;
+		padding: 10px 20px 10px 0;
+	}
+
+	section.savings div.savingsEl h3 span {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	section.savings div.savingsEl h5 {
+		font-size: 22px;
+	}
+
+
+	/*************************         savings end        *************************/
+
+	/*************************         how does it works start        *************************/
+
+	section.howItWorks ul {
+		width: 90%;
+		margin: 80px auto;
+		padding-right: 0;
+		text-align: center;
+	}
+
+	section.howItWorks ul li {
+		width: 190px;
+		height: 190px;
+		padding-top: 100px;
+		margin-right: 0;
+		margin-bottom: 50px;
+		margin-top: 0;
+	}
+
+	section.howItWorks ul li:nth-child(1),
+	section.howItWorks ul li:nth-child(3) {
+		margin-right: 20px;
+		margin-top: 0;
+	}
+	section.howItWorks ul li:nth-child(2),
+	section.howItWorks ul li:nth-child(4) {
+		margin-top: 0;
+		margin-right: 0;
+	}
+
+	section.howItWorks ul li:nth-child(1):after {
+		top: 95%;
+		right: -10%;
+		-webkit-transform: translate(50%, 0) rotate(-180deg);
+		    -ms-transform: translate(50%, 0) rotate(-180deg);
+				  transform: translate(50%, 0) rotate(-180deg);
+	}
+
+	section.howItWorks ul li:nth-child(2):after {
+		top: -19%;
+		right: 107%;
+		-webkit-transform: translate(50%, 0) scale(1, -1) rotate(35deg);
+		    -ms-transform: translate(50%, 0) scale(1, -1) rotate(35deg);
+		        transform: translate(50%, 0) scale(1, -1) rotate(35deg);
+	}
+
+	section.howItWorks ul li:nth-child(3):after {
+		top: 84%;
+		right: -7%;
+		-webkit-transform: translate(50%, 0) rotate(35deg);
+		    -ms-transform: translate(50%, 0) rotate(35deg);
+				  transform: translate(50%, 0) rotate(35deg);
+	}
+
+
+	section.howItWorks ul li:nth-child(1) img {
+		width: 106px;
+		height: 89px;
+		top: -10px;
+	}
+	section.howItWorks ul li:nth-child(2) img {
+		width: 105px;
+		height: 79px;
+		top: -20px;
+	}
+	section.howItWorks ul li:nth-child(3) img {
+		width: 106px;
+		height: 107px;
+		top: -40px;
+	}
+	section.howItWorks ul li:nth-child(4) img {
+		width: 129px;
+		height: 87px;
+		top: -20px;
+	}
+
+	section.howItWorks ul li:after {
+		right: -40%;
+	}
+
+
+	/*************************         how does it works end        *************************/
+
+	/*************************         learn more start        *************************/
+
+	section.learMore {
+		text-align: center;
+		
+	}
+
+	section.learMore div.wrapp div {
+		display: inline-block;
+		width: 100%;
+		margin-right: 0;
+		margin-top: 2%;
+		padding: 3% 10%;
+	}
+
+	section.learMore div h2 {
+		font-size: 18px;
+	}
+	section.learMore div p {
+		height: auto;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+
+	section.learMore div a {
+		width: 40%;
+	}
+
+
+	/*************************         learn more end        *************************/
+
+	/*************************         WHAT TYPES start        *************************/
+
+
+	section.whatTypes {
+		text-align: left;
+	}
+	
+	section.whatTypes ul {
+		width: 45%;
+		margin: 0 0 5% 0;
+		padding-left: 10%;
+	}
+
+	section.whatTypes ul:nth-child(4) {
+		width: 70%;
+	}
+
+	section.whatTypes ul li {
+		font-weight: 600;
+	}
+
+
+
+	/*************************         WHAT TYPES end        *************************/
+
+	/*************************         slider start        *************************/
+
+	.sliderWrapp .slider {
+		width: 80%;
+	}
+
+	.sliderWrapp .sliderPrev {
+		left: 0;
+	}
+
+	.sliderWrapp .sliderNext {
+		right: 0;
+	}
+
+	.sliderWrapp .slider .slide .profile img {
+		width: 120px;
+		height: 120px;
+	}
+
+	.sliderWrapp .slider .slide .profile {
+		width: 300px;
+	}
+
+
+	/*************************         slider end        *************************/
+
+	/*************************       What We Offer start        *************************/
+
+	
+
+	section.whatWeOffer .whatWeOfferCol div:nth-child(1),
+	section.whatWeOffer .whatWeOfferCol div:nth-child(2) {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	section.whatWeOffer .whatWeOfferCol {
+		background-image: none;
+		margin-bottom: 20px;
+	}
+
+	section.whatWeOffer .whatWeOfferCol p {
+		font-size: 16px;
+	}
+
+	/*************************       What We Offer end        *************************/
+
+
+	/*************************        WHY ORDER start        *************************/
+
+	section.whyOrder .wrapp div {
+		background-image: none;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	section.whyOrder p {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	/*************************        WHY ORDER end        *************************/
+
+	/*************************        We accept start        *************************/
+
+
+	section.weAccept div.wrapp {
+		padding: 0;
+		text-align: center;
+	}
+
+	section.weAccept h1 {
+		font-size: 22px;
+		margin-right: 10px;
+		padding: 15px 0;
+	}
+
+	section.weAccept ul {
+		padding: 10px 0;
+
+	}
+
+	section.weAccept ul li {
+		width: 110px;
+		height: 60px;
+		line-height: 56px;
+	}
+
+	/*************************        We accept end        *************************/
+
+	/*************************        footer start        *************************/
+
+
+
+	footer.paperFooter .footerLinks ul:nth-child(1) {
+		width: 45%;
+	}
+
+	footer.paperFooter .footerLinks ul:nth-child(2) {
+		width: 30%;
+	}	
+
+	footer.paperFooter .footerLinks ul:nth-child(3) {
+		margin-top: 30px;
+		width: 90%;
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+
+	/*************************        footer end        *************************/
+
+	/*************************        sigle page & sidebar start        *************************/
+
+	div.wrapp.main {
+		margin-top: 60px;
+		padding-top: 20px;
+	}
+
+	main.pageMain p {
+		font-size: 14px;
+	}
+
+	main.pageMain,
+	aside.sidebar {
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	aside.sidebar {
+		margin-top: 30px;
+	}
+
+	section.triggers,
+	div.wrapp.main aside.sidebar .paperCalcSide {
+		width: 100%;
+		float: none;
+	}
+
+	section.triggers {
+		width: 320px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	section.triggers ul {
+		width: 260px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	section.triggers .logo {
+		margin-top: 15px;
+	}
+
+	section.triggers ul li {
+			padding: 10px 5px;
+	}
+
+	div.wrapp.main aside.sidebar .paperCalcSide {
+		padding-top: 15px;
+	}
+
+	section.triggers ul li p {
+		font-size: 16px;
+		vertical-align: middle;
+	}
+
+
+	/*************************        sigle page & sidebar end        *************************/
+
+	/*************************        discounts start        *************************/
+
+	.discountsSafe {
+		padding: 15px 20px;	
+	}
+
+	.discountsSafe img {
+		display: none;
+	}
+
+	.discountsSafe ul {
+		text-align: center;
+		
+	}
+
+	.discountsSafe ul li:nth-child(2) {
+		margin-right: 0;
+	}
+	.discountsSafe ul li:nth-child(3) {
+		display: block;
+		margin: 60px auto 0;
+		width: 130px;
+	}
+
+	.discountsSafe ul li:nth-child(3):after {
+		top: -27%;
+		left: 30%;
+		-webkit-transform: rotate(90deg);
+		    -ms-transform: rotate(90deg);
+				  transform: rotate(90deg);
+
+	}
+
+	ul.discountsTables {
+		width: 100%;
+	}
+
+	ul.discountsTables li {
+		width: 100%;
+		float: none;
+	}
+
+	ul.discountsTables li:first-child {
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+
+	main.pageMain .pageButtonBox {
+		padding: 15px 10px;
+		text-align: center;
+	}
+
+	main.pageMain .pageButtonBox h2 {
+		font-size: 19px;
+		display: block;
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	main.pageMain .pageButtonBox a.papperButton {
+		font-size: 13px;
+		padding: 12px 10px;
+	}
+
+	main.pageMain .twoButtonBox a.papperButton:nth-of-type(1) {
+		margin-right: 10px;
+	}
+
+	main.pageMain .pageButtonBox.shareGood a.papperButton {
+		margin-right: 0;
+	}
+
+	main.pageMain .twoButtonBox h2 {
+		text-align: center;
+	}
+
+	main.pageMain .twoButtonBox h2 br {
+		display: none;
+	}
+
+	main.pageMain .twoButtonBox h2 span {
+		display: inline;
+		float: none;
+	}
+
+	
+
+	/*************************        discounts end        *************************/
+
+	/*************************        faq start        *************************/
+
+	.faqSuperImg {
+		margin-bottom: 30px;
+	}
+
+	main.pageMain .faqSuperImg h5,
+	main.pageMain .faqSuperImg h6 {
+		font-size: 23px;
+	}
+
+	main.pageMain .faqSuperImg h6 {
+		margin-bottom: 10%;
+	}
+
+	.faqSuperArrow {
+		display: none;
+	}
+
+	/*************************        faq end        *************************/
+
+	/*************************        contact us start        *************************/
+
+	.contactForm {
+		padding: 0 20px;
+	}
+
+	.pageMain .successMesage {
+		width: 350px;
+		left: calc(50% - 175px);
+		padding: 20px;
+	}
+
+	.pageMain .successMesage img {
+		width: 100px;
+	}
+
+	.pageMain .successMesage h2 {
+		margin-top: 0;
+		font-size: 22px;
+	}
+
+	.pageMain .successMesage h3 {
+		font-size: 16px;
+	}
+
+	/*************************        contact us end        *************************/
+
+	/*************************        Prices Overview start        *************************/
+
+	main.prices section.savings div.savingsEl {
+		width: 27%;
+	}
+
+	main.prices section.savings div.savingsEl:nth-child(2){
+		border-right: 0;
+	}
+
+	main.prices .pricesPic ul {
+		padding-left: 0;
+	}
+
+	.pricesPic {
+		text-align: center;
+		
+	}
+
+	.pricesPic li {
+		display: inline-block;
+		width: 45%;
+		float: none;
+	}
+	.pricesPic li:nth-child(odd) {
+		margin-right: 2%;
+	}
+
+	.pricesPic li:nth-child(3) {
+		margin-left: 0;
+	}
+
+	.pricesPic li:nth-child(3),
+	.pricesPic li:nth-child(4) {
+		margin-top: 2%;
+	}
+
+	.pricesPic li span {
+		float: none;
+		display: inline-block;
+	}
+
+	main.pageMain .pricesPic h4 {
+		float: none;
+		margin-top: 10px;
+		margin-left: 0;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.tableCalc .calcWrapper {
+		padding-left: 20px; 	
+	}
+
+	.tableCalc .calcWrapper .selectWrapper {
+		width: 45%;
+	}
+
+	.tableCalc .calcWrapper .selectWrapper {
+		margin-right: 5%;
+	}
+
+	.tableCalc tbody tr td {
+		font-size: 14px;
+	}
+
+	/*************************        Prices Overview end        *************************/
+}
+
+
+@media all and (min-width: 710px) and (max-width: 768px) {
+	section.howItWorks ul {
+		width: 80%;
+	}
+}

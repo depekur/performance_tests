@@ -1,0 +1,176 @@
+@media all and (min-width: 1450px) {
+	.wrapp {
+		width: 1300px;
+	}
+
+	.sidebar {
+		width: 27%;
+	}
+
+	.content {
+		width: 70%;
+	}
+
+	.learnMore__column--img {
+		width: 30%;
+	}
+
+	.btn {
+		font-size: 18px;
+	}
+
+	.header__link {
+		font-size: 18px;
+	}
+
+	.text {
+		font-size: 18px;
+	}
+
+	.title {
+		font-size: 28px;
+	}
+
+	.title--box {
+		font-size: 25px;
+	}
+
+	.item__title {
+		font-size: 20px;
+	}
+
+	.title--large {
+		font-size: 35px;
+	}
+
+	.title--main {
+		font-size: 45px;
+	}
+
+	.title--logo {
+		font-size: 19px;
+	}
+
+	.title--content {
+		font-size: 28px;
+	}
+
+	.title--footer {
+		font-size: 19px;
+	}
+
+	.title--section {
+		font-size: 33px;
+	}
+
+	.title--section:after {
+		margin-top: 25px;
+	}
+
+	.title--small {
+		font-size: 21px;
+	}
+
+	.item__title--perk {
+		font-size: 19px;
+	}
+
+	.guarantees__title {
+		font-size: 20px;
+	}
+
+	.step__text {
+		font-size: 20px;
+	}
+
+	.wow-action--title {
+		font-size: 40px;
+	}
+
+	.wow-action--text {
+
+	}
+
+	.btn--wow {
+
+	}
+
+	.slide {
+		width: 1000px;
+	}
+
+	.slide__name {
+		font-size: 22px;
+	}
+	.slide__prof {
+		font-size: 17px;
+	}
+
+	.contact__completeMessage {
+		padding: 70px;
+	}
+
+	.close-popup {
+		background-size: cover;
+		top: -35px;
+		right: -35px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.completeMessage__border {
+		width: 350px;
+	}
+
+	.completeMessage__title {
+		font-size: 50px;
+	}
+
+	.completeMessage__title--2 {
+		font-size:  32px;
+		padding: 15px 0;
+	}
+
+	.completeMessage__title--3 {
+		font-size: 35px;
+	}
+
+
+	/***********************************************************************************          
+			calc       
+	***********************************************************************************/
+
+
+	.calc__field label {
+		font-size: 18px;
+	}
+
+	.calc__priceLabel {
+		font-size: 21px;
+	}
+
+	.calc__dollar {
+		width: 28px;
+	}
+
+	.calc__price {
+		font-size: 27px;
+	}
+}
+
+
+@media all and (min-width: 1900px) {
+	.wrapp {
+		width: 1600px;
+	}
+
+	.slide {
+		width: 1200px;
+	}
+
+	.calc__meta--footer {
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+}

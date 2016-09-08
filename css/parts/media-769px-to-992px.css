@@ -1,0 +1,548 @@
+@media all and (min-width: 769px) and (max-width: 992px) {
+ 	.wrapp {
+		width: 750px;
+	}
+
+	/*************************         header start        *************************/
+
+	.papperHeader {
+		font-size: 27px;
+	}
+
+	header.navHeader {
+		padding-top: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 9999;
+		padding-top: 0;
+		background: #fff;
+		box-shadow: 0 0 8px 0 rgba(0, 0, 0, .15);
+	}
+
+	nav.mainNav {
+		display: none;
+	}
+
+	nav.mobileNav {
+		display: block;
+		float: right;
+		width: 60%;
+		padding-top: 4px;
+	}
+
+	nav.mobileNav .mobileNavMain {
+		text-align: right;
+	}
+
+	nav.mobileNav .signInButton .papperButton {
+		padding-left:  10px;
+		padding-right: 10px;
+	}
+
+
+	.hamburgerButton {
+		display: block;
+		margin-top: 4px;
+	}
+
+	header.navHeader .wrapp{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.logo,
+	header.navHeader.fixedHeader .logo {
+		margin-top: 3px;
+		margin-left: 20px;
+		width: 140px;
+		height: 44px;
+	}
+
+
+	header.navHeader.fixedHeader .mainNav li {
+		margin-left: 15px;
+	}
+
+	header.navHeader.fixedHeader + section.headliner,
+	header.navHeader.fixedHeader + div.wrapp.main {
+		margin-top: 57px;
+	}
+
+
+
+	/*************************         header end        *************************/
+
+	/*************************         headliner start        *************************/
+
+	section.headliner {
+		margin-top: 58px;
+	}
+
+	section.headliner .headlinerAngle {
+		width: 200px;
+	}
+	section.headliner .headlinerAngle h1 {
+		font-size: 2em;
+	}
+
+	section.headliner .headlinerCircle {
+		width: 280px;
+		height: 320px;
+		padding-top: 100px;
+		border: none;
+		margin-left: 0;
+		padding-left: 50px;
+	}
+
+	section.headliner .headlinerCircle .headlinerPic1 {
+		width: 120px;
+		height: 100px;
+		top: -30px;
+	}
+	section.headliner .headlinerCircle .headlinerPic2 {
+		width: 90px;
+		height: 90px;
+		left: 40%;
+		bottom: -30px;
+	}
+
+	section.headliner .headlinerCircle ul li {
+		font-size: 18px;
+	}
+	section.headliner .headlinerCircle ul li:before {
+		left: -40px;
+	}
+
+	/*************************         calc start        *************************/
+
+	.paperCalcSide {
+		width: 240px;
+		padding-left: 10px;
+		padding-right: 10px; 
+	}
+
+	.paperCalc select {
+		padding: 7px 9px;
+		margin-top: 3px;
+	}
+
+	.paperCalc label:after {
+		top: 32px;
+	}
+	.paperCalcSide h2 {
+		font-size: 17px;
+	}
+
+	.paperCalc fieldset.paperCalcPriceField div {
+		vertical-align: middle;
+		font-size: 17px;
+	}
+	.paperCalc fieldset.paperCalcPriceField div .paperCalcPrice {
+		font-size: 20px;
+	}
+
+	/*************************         calc end        *************************/
+
+	/*************************         headliner end        *************************/
+
+	/*************************        get price calc start        *************************/
+
+	section.getPrice .paperCalc {
+		width: 90%
+	}
+
+
+
+	/*************************        get price calc end        *************************/
+
+	/*************************         why us start        *************************/
+
+	section.whyUs div ul {
+		width: 45%;
+
+	}
+	section.whyUs div ul li.whyUsIcons {
+		height: 50px;
+		background-size: contain !important;
+	}
+
+	section.whyUs div ul:last-child {
+		margin-top: 30px;
+	}
+
+	/*************************         why us end        *************************/
+
+	/*************************         savings start        *************************/
+
+	section.savings div.savingsEl {	
+		padding: 20px 15px 20px 15px;
+	}
+
+	section.savings div.savingsTitle {
+		font-size: 25px;
+		padding: 20px 30px 20px 0;
+	}
+
+	section.savings div.savingsEl h3 span {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	section.savings div.savingsEl h5 {
+		font-size: 22px;
+	}
+
+
+	/*************************         savings end        *************************/
+
+	/*************************         how does it works start        *************************/
+
+	section.howItWorks ul {
+		margin: 80px 0;
+		padding-right: 40px;
+	}
+
+	section.howItWorks ul li {
+		width: 180px;
+		height: 180px;
+		padding-top: 100px;
+		margin-right: -40px;
+	}
+
+	section.howItWorks ul li:nth-child(1),
+	section.howItWorks ul li:nth-child(3) {
+		margin-top: 0;
+	}
+
+	section.howItWorks ul li:nth-child(2),
+	section.howItWorks ul li:nth-child(4) {
+		margin-top: 140px;
+	}
+
+	section.howItWorks ul li:nth-child(1):after,
+	section.howItWorks ul li:nth-child(3):after {
+		top: 110%;
+		right: 50%;
+		-webkit-transform: translate(50%, 0) rotate(90deg);
+		    -ms-transform: translate(50%, 0) rotate(90deg);
+				  transform: translate(50%, 0) rotate(90deg);
+	}
+	section.howItWorks ul li:nth-child(2):after {
+		top: -50%;
+		right: 50%;
+		-webkit-transform: translate(50%, 0) scale(1, -1) rotate(90deg);
+		    -ms-transform: translate(50%, 0) scale(1, -1) rotate(90deg);
+		        transform: translate(50%, 0) scale(1, -1) rotate(90deg);
+	}
+
+
+	section.howItWorks ul li:nth-child(1) img {
+		width: 106px;
+		height: 89px;
+		top: -10px;
+	}
+	section.howItWorks ul li:nth-child(2) img {
+		width: 105px;
+		height: 79px;
+		top: -20px;
+	}
+	section.howItWorks ul li:nth-child(3) img {
+		width: 106px;
+		height: 107px;
+		top: -40px;
+	}
+	section.howItWorks ul li:nth-child(4) img {
+		width: 129px;
+		height: 87px;
+		top: -20px;
+	}
+
+	section.howItWorks ul li:after {
+		right: -40%;
+	}
+
+
+	/*************************         how does it works end        *************************/
+
+	/*************************         learn more start        *************************/
+
+	section.learMore {
+		text-align: center;
+		
+	}
+
+	section.learMore div.wrapp div {
+		display: inline-block;
+		width: 46%;
+		margin-right: 0;
+	}
+
+	section.learMore div.wrapp div:first-child {
+		margin-right: 2%;
+	}
+
+
+	section.learMore div.wrapp div:last-child {
+		width: 95%;
+		margin-top: 2%;
+	}
+
+	section.learMore div.wrapp div:last-child p {
+		height: auto;
+	}
+	section.learMore div.wrapp div:last-child a {
+		width: 19%;
+	}
+
+	section.learMore div h2 {
+		font-size: 18px;
+	}
+	section.learMore div p {
+		height: 200px;
+		font-size: 15px;
+	}
+
+	section.learMore div a {
+		width: 40%;
+	}
+
+	/*************************         learn more end        *************************/
+
+	/*************************         WHAT TYPES start        *************************/
+
+	section.whatTypes ul {
+		width: 29%;
+		margin-right: 5%;
+	}
+
+	section.whatTypes ul:first-child {
+		margin-left: 1%;
+	}
+
+	section.whatTypes ul li {
+		font-weight: 600;
+	}
+
+	/*************************         WHAT TYPES end        *************************/
+
+	/*************************         slider start        *************************/
+
+	.sliderWrapp .slider {
+		width: 550px;
+	}
+
+	.sliderWrapp .sliderPrev {
+		left: 5%;
+	}
+
+	.sliderWrapp .sliderNext {
+		right: 5%;
+	}
+
+	.sliderWrapp .slider .slide .profile img {
+		width: 120px;
+		height: 120px;
+	}
+
+	.sliderWrapp .slider .slide .profile {
+		width: 300px;
+	}
+
+
+	/*************************         slider end        *************************/
+
+	/*************************       What We Offer start        *************************/
+
+	
+
+	section.whatWeOffer .whatWeOfferCol div:nth-child(1),
+	section.whatWeOffer .whatWeOfferCol div:nth-child(2) {
+		float: none;
+		width: 50%;
+	}
+
+	section.whatWeOffer .whatWeOfferCol {
+		background-image: url('../i/what_do_we_offer_pic_748.png');
+		
+		background-position: bottom right;
+	}
+
+	section.whatWeOffer .whatWeOfferCol p {
+		font-size: 16px;
+	}
+
+	/*************************       What We Offer end        *************************/
+
+
+	/*************************        WHY ORDER start        *************************/
+
+	section.whyOrder .wrapp div {
+		background-size: auto;
+	}
+
+	section.whyOrder p {
+		font-size: 16px;
+	}
+
+	/*************************        WHY ORDER end        *************************/
+
+	/*************************        We accept start        *************************/
+
+	section.weAccept h1 {
+		font-size: 22px;
+		margin-right: 20px;
+		padding: 15px 0;
+	}
+
+	section.weAccept ul {
+		padding: 10px 0;
+	}
+
+	section.weAccept ul li {
+		width: 110px;
+		height: 60px;
+		line-height: 56px;
+	}
+
+	/*************************        We accept end        *************************/
+
+	/*************************        sigle page & sidebar start        *************************/
+
+	div.wrapp.main {
+		margin-top: 57px;
+		padding-top: 20px;
+	}
+
+	main.pageMain p {
+		font-size: 14px;
+	}
+
+	main.pageMain,
+	aside.sidebar {
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+	aside.sidebar {
+		margin-top: 30px;
+	}
+
+	section.triggers,
+	div.wrapp.main aside.sidebar .paperCalcSide {
+		width: 48%;
+	}
+
+	section.triggers {
+		float: left;
+	}
+
+	section.triggers .logo {
+		margin-top: 15px;
+	}
+
+	section.triggers ul li {
+			padding: 10px 5px;
+	}
+
+	div.wrapp.main aside.sidebar .paperCalcSide {
+		float: right;
+		padding-top: 15px;
+	}
+
+
+	/*************************        sigle page & sidebar end        *************************/
+
+	/*************************        discounts start        *************************/
+
+	.discountsSafe {
+		padding: 15px 20px;
+	}
+
+	.discountsSafe img {
+		margin-right: 30px;
+	}
+
+	main.pageMain .pageButtonBox {
+		padding: 30px 10px;
+	}
+
+	main.pageMain .pageButtonBox h2 {
+		font-size: 19px;
+	}
+
+	main.pageMain .pageButtonBox a.papperButton {
+		font-size: 13px;
+		padding: 12px 10px;
+	}
+
+	main.pageMain .twoButtonBox a.papperButton:nth-of-type(1) {
+		margin-right: 10px;
+	}
+
+	
+
+	section.triggers ul li p {
+		font-size: 16px;
+		vertical-align: middle;
+	}
+
+	/*************************        discounts end        *************************/
+
+	/*************************        faq start        *************************/
+
+	.faqSuperImg {
+		margin-bottom: 30px;
+	}
+
+	main.pageMain .faqSuperImg h5,
+	main.pageMain .faqSuperImg h6 {
+		font-size: 23px;
+	}
+
+	.faqSuperArrow {
+		margin-top: -70px;
+	}
+
+	/*************************        faq end        *************************/
+
+	/*************************        Prices Overview start        *************************/
+
+	.tableCalc .calcWrapper {
+		padding-left: 20px; 	
+	}
+
+	.tableCalc .calcWrapper .selectWrapper {
+		width: 45%;
+	}
+
+	.tableCalc .calcWrapper .selectWrapper {
+		margin-right: 5%;
+	}
+
+
+
+	.pricesPic li {
+		width: 45%;
+	}
+	.pricesPic li:nth-child(odd) {
+		margin-right: 2%;
+	}
+
+	.pricesPic li:nth-child(3) {
+		margin-left: 5%;
+	}
+
+	.pricesPic li:nth-child(3),
+	.pricesPic li:nth-child(4) {
+		margin-top: 2%;
+	}
+
+	main.pageMain .pricesPic h4 {
+		font-size: 14px;
+	}
+
+	/*************************        Prices Overview end        *************************/
+
+}

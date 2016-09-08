@@ -1,0 +1,296 @@
+/*********************************************************         
+		comments 
+*********************************************************/
+
+.comments {
+	margin-top: 40px;
+}
+
+.comments__title {
+	font-size: 22px;
+	line-height: 32px;
+	color: #555555;
+	margin-bottom: 20px;
+}
+
+.comments-form {
+	background: #EDEFF1;
+	padding: 40px 25px;
+}
+
+.comments-form__fieldset {
+	float: right;
+	width: 47%;
+	margin-bottom: 35px;
+}
+
+.comments-form fieldset{
+	position: relative;
+}
+
+.comments-form__fieldset--name {
+	float: left;
+}
+
+.comments-form__fieldset input,
+.comments-form__fieldset--full textarea {
+	width: 100%;	
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 15px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.comments-form__fieldset--full textarea {
+	resize: none;
+	height: 200px;
+}
+
+.comments-form__fieldset--full {
+	clear: both;
+}
+
+.comments-form__input {
+	
+}
+
+.comments-form__fieldset--buttons {
+	margin-top: 20px;
+	text-align: right;
+}
+
+.not-robot-label {
+	display: inline-block;
+	margin-right: 25px;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	color: #555555;
+}
+
+.not-robot__checkbox {
+	display: inline-block;
+	position: relative;
+	margin: 4px 10px 0 0;		
+	vertical-align: top;
+	
+	width: 15px;
+	height: 15px;
+	border-radius: 4px;
+	background: #FFF;
+
+}
+
+.not-robot__checkbox:after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	margin: 3px 0 0 3px;
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAPFBMVEUAAAD////////////////////////////////////////////////////////////////////////////YSWgTAAAAE3RSTlMAf6oS+OLgxLiWjINjVU1BMxwHRwsLagAAADRJREFUCNclxscNACEQwEADlyPg/ntFWvzxEPXcJi73+K8fvJTVG05T9gCSuhVCS4XQAzAANgUBckWN6x8AAAAASUVORK5CYII=');
+}
+
+.not-robot:checked + .not-robot-label > .not-robot__checkbox {
+	background: #277DAE;
+}
+
+.not-robot:checked + .not-robot-label > .not-robot__checkbox:after {
+	display: block;
+}
+
+.not-robot--error {
+	color: #eb0000;
+	-webkit-animation: 0.5s tremor ease-out;  
+	animation: 0.5s tremor ease-out; 
+}
+
+
+
+
+.comments-form__error {
+	display: block;
+	position: absolute;
+	top: -25px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #eb0000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.comments__complete-msg {
+	display: none;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.complete-msg__success {
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+.comments__checked {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAMAAADqmnyMAAAAZlBMVEUAAACBxgCBxgCBxQCBxwCO4wCCxQCBxgCBxQCCxgCCxACCxgCCxgCBxQCAxgCCxgCBxgCBxgB/zACHzACFwgCBxQCBxgCBxQCBxgCBxQCCxgCCxgCCxgCDxgCAxQCBxgCL0ACCxgAOWaLJAAAAIXRSTlMAv4hCIgT7+O3lLPPGlmxfUDYUDwrw2M+1taainoRzVRY39VemAAAAfklEQVQY02WOiQ6EIAxEiwoouuu5p+f8/09aYjQUX0ImfRCmFNOp7OaGCkVs9Q+AiuQE3F4m7HIn3ZNd2Uq3GsCm0qUWMM05HOFeAOrr88RHVrBbgsKHpu7NOYeNGPvK39FFbfxyfP46aG0sPF8tdynZqYEkbY5PTzFObeG4AymjCd3tKsxQAAAAAElFTkSuQmCC');
+}
+
+.complete-msg__text {
+	float: left;
+	
+	font-size: 16px;
+	line-height: 28px;
+	color: #555555;
+}
+
+.cross {
+	margin-top: 8px;
+	float: right;
+	width: 12px;
+	height: 12px;
+
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAElBMVEUAAAC8vMS8vMS8vMS8vMS8vMTjp7ddAAAABXRSTlMAxQ62NW1K+JIAAAA2SURBVAjXY3BWYGBgMmEwFWJgUAxmUAxUYBIVYgBiIIsByAVyGIBcIAdKQQWhSqAaoNqhhgEASPgH1z30BAcAAAAASUVORK5CYII=');
+
+	cursor: pointer;
+}
+
+.comments__complete-msg--error .complete-msg__success {
+	display: none;
+}
+
+.comments__complete-msg--error .complete-msg__text {
+	color: #eb0000;
+}
+
+
+
+.comments__list {
+	margin-top: 50px;
+}
+
+.comment__avatar {
+	border-radius: 100%;
+	float: left;
+	width: 85px;
+	height: 85px;
+}
+
+.comment__content {
+	margin-left: 100px;
+}
+
+.comment__name {
+	font-size: 16px;
+	line-height: 34px;
+	color: #555555;
+	font-weight: bold;
+}
+
+.comment__date {
+	font-size: 14px;
+	line-height: 24px;
+	color: #aeaeae;
+}
+
+.comment__text {
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #555555;
+	word-wrap: break-word;
+}
+
+.comment {
+	margin-bottom: 30px;
+}
+
+.comment.depth-2 {
+	padding-left: 100px;
+}
+
+.comment.depth-3 {
+	padding-left: 200px;
+}
+
+.comment.depth-4 {
+	padding-left: 300px;
+}
+
+.reply__icon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	vertical-align: middle;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAMAAAAhxq8pAAAAYFBMVEUAAAAWjeoVjuoYj+wWjekWjukVjusSiuYVjuoVjekUjuoVjekWjuoVjuoVjekWjesWj+sVjukVjOkWjeoVjeoVjekWjegVjuoWj+oWjuoVjekVju0TjOsViukTiesWjuq0G6roAAAAH3RSTlMAkuAf/dlnG7KrKPjnvoFxVFAi8+jTuKOUel47GRgN9/n62gAAAHBJREFUGNNtzUkShSAMRdEoiID9//bd2/8uxUK0rHhHyRkkdLYpYq1JxCxNEH0YTD039m1Xf90ELODKteljAN3i8ecWf1NMLWR1a3i0j0DpRxE/35WECuowKDJ7aUV3BppYaSYt1wElxxoFR4GceJAHQnwG9bDnoHQAAAAASUVORK5CYII=');
+	
+}
+
+.comment__reply {
+	margin-top: 5px;
+}
+
+.comment-reply-link:active,
+.comment-reply-link:visited {
+	color: #168eea;
+}
+
+.comments-form__checked {
+	position: absolute;
+	display: none;
+	top: 13px;
+	right: 10px;
+}
+
+.comments-field--checked + .comments-form__checked {
+	-display: block;
+}
+
+.bth--show-more {
+	width: 220px;
+	padding: 15px 0;
+	margin-top: 30px;
+	font-size: 14px;
+	color: #277dae;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+	
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.comments-reply {
+	display: none;
+	float: left;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 34px;
+	color: #555555;
+}
+
+.cross--reply {
+	display: inline-block;
+	float: none;
+	margin-left: 10px;
+}
+
+.comments-reply__text{
+	display: inline-block;
+	
+}
