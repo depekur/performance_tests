@@ -1,4 +1,6 @@
-###Для тестов в консоли используются настройки интернета Regular 3G (100ms, 750kb/s, 250kb/s)
+#### для тестов в консоли используются настройки интернета Regular 3G (100ms, 750kb/s, 250kb/s)
+
+#### webpagetest.org - 5 тестов - настройки интернета Mobile 3G - Slow (780Kbps/330 Kbps 200ms)
 
 
 
@@ -73,12 +75,12 @@
 
 	PageSpeed Tools
 	мобильные - 67 / 100 
-	десктоп - 90 / 100 
+	десктоп - 89 / 100 
 
 ![devtools](http://lab.depekour.com/frontend/results/1_1.PNG)
-
 ![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.PNG)
 
+<hr>
 
 
 
