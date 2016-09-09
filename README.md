@@ -73,13 +73,13 @@
 
 	PageSpeed Tools
 	мобильные - 67 / 100 
-	десктоп - 87 / 100 
+	десктоп - 90 / 100 
 
 devtools:
-![devtools](http://lab.depekour.com/frontend/results/1_1.png)
+![devtools](http://lab.depekour.com/frontend/results/1_1.PNG)
 
 webpagetest.org:
-![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.png)
+![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.PNG)
 
 
 
