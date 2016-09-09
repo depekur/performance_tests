@@ -109,9 +109,24 @@
 
 
 #14. [весь css и js в head](http://lab.depekour.com/frontend/12.php)
+	PageSpeed Tools
+	мобильные - 62 / 100 
+	десктоп - 70 / 100 
 
+![devtools](http://lab.depekour.com/frontend/results/6_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/6_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/6_3.PNG)
 
-
+<hr>
 
 
 #15. [весь css инлайн в head, скрипты инлайн перед /body](http://lab.depekour.com/frontend/11.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 93 / 100 
+
+![devtools](http://lab.depekour.com/frontend/results/5_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/5_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/5_3.PNG)
+
+<hr>
