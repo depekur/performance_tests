@@ -75,11 +75,11 @@
 	мобильные - 67 / 100 
 	десктоп - 87 / 100 
 
-	devtools:
-	![devtools](http://lab.depekour.com/frontend/results/1_1.png)
+devtools:
+![devtools](http://lab.depekour.com/frontend/results/1_1.png)
 
-	webpagetest.org:
-	![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.png)
+webpagetest.org:
+![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.png)
 
 
 
