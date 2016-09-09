@@ -1,3 +1,7 @@
+###Для тестов в консоли используются настройки интернета Regular 3G (100ms, 750kb/s, 250kb/s)
+
+
+
 ####1. [< 10кб файл в head, остальное кучей файлов перед /body](http://lab.depekour.com/frontend/4.php)
 
 
@@ -67,11 +71,15 @@
 
 ####12. [весь css в 1 файле в head, скрипты перед /body](http://lab.depekour.com/frontend/1.php)
 
-	+ **PageSpeed Tools**
-	+ мобильные - 67 / 100 
-	+ десктоп - 87 / 100 
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 87 / 100 
 
+	devtools:
+	![devtools](http://lab.depekour.com/frontend/results/1_1.png)
 
+	webpagetest.org:
+	![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.png)
 
 
 
