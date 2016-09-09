@@ -5,16 +5,6 @@
 	<title>Performance tests - lazy load</title>
 
 	<link rel="stylesheet" href="css/base.min.css">
-	<link rel="stylesheet" href="css/parts/reset.css">
-	<link rel="stylesheet" href="css/min/style_2.min.css">
-	<link rel="stylesheet" href="css/parts/laptop.css">
-	<link rel="stylesheet" href="css/parts/mobile.css">
-	<link rel="stylesheet" href="css/parts/mobile.css">
-	<link rel="stylesheet" href="css/parts/slick.css">
-	<link rel="stylesheet" href="css/parts/tablet.css">
-	<link rel="stylesheet" href="css/parts/retina.css">
-	<link rel="stylesheet" href="css/parts/comments.css">
-	<link rel="stylesheet" href="css/parts/sidebar.css">
 
 	<?php require 'meta.php'; ?>
 
@@ -29,13 +19,10 @@
 
 	<?php require 'content.php'; ?>
 
-	
-
-	
 	<script>
 		function printFiles() {
 			var js = true,
-				 css = false;
+				 css = true;
 
 			var jsLinks = [
 				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
@@ -44,6 +31,10 @@
 				'js/app.min.js',
 				'js/lazyLoad.js'
 			]; 
+
+			var cssLinks = [
+				'css/min/style_1.min.css'
+			];
 
 			var result = '';
 

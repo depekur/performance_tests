@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" href="css/base.min.css">
 	<link rel="stylesheet" href="css/parts/reset.css">
-	<link rel="stylesheet" href="css/min/style_1.min.css">
+	<link rel="stylesheet" href="css/min/style_2.min.css">
 	<link rel="stylesheet" href="css/parts/laptop.css">
 	<link rel="stylesheet" href="css/parts/mobile.css">
 	<link rel="stylesheet" href="css/parts/mobile.css">
@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="css/parts/retina.css">
 	<link rel="stylesheet" href="css/parts/comments.css">
 	<link rel="stylesheet" href="css/parts/sidebar.css">
+
+	<?php require 'meta.php'; ?>
 
 	<style>
 		body {
@@ -34,6 +36,7 @@
 	<script src="http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	<script src="js/app.min.js"></script>
+	<script src="js/lazyLoad.js"></script>
 
 </body>
 </html>

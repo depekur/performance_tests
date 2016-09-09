@@ -18,6 +18,15 @@
 
 	<?php require 'meta.php'; ?>
 
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script src="js/app.min.js"></script>
+	<script src="js/lazyLoad.js"></script>
+
+
+
 	<style>
 		body {
 			width: 900px !important;
@@ -29,41 +38,8 @@
 
 	<?php require 'content.php'; ?>
 
-	
 
 	
-	<script>
-		function printFiles() {
-			var js = true,
-				 css = false;
-
-			var jsLinks = [
-				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
-				'http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js',
-				'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
-				'js/app.min.js',
-				'js/lazyLoad.js'
-			]; 
-
-			var result = '';
-
-			if (css) {
-				for (var i = 0; i < cssLinks.length; i++) {
-					result += '<link href="' + cssLinks[i] + '" rel="stylesheet">';
-				}
-			} 
-
-			if (js) {
-				for (var i = 0; i < jsLinks.length; i++) {
-					result += '<script src="' + jsLinks[i] + '"><\/script>';
-				}
-			}		
-
-			document.body.insertAdjacentHTML('beforeend', result);
-		}
-
-		document.addEventListener("DOMContentLoaded", printFiles);		
-	</script>
 
 </body>
 </html>

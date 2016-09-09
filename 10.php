@@ -21,42 +21,22 @@
 
 	<?php require 'content.php'; ?>
 
-	<script>
-		function printFiles() {
-			var js = true,
-				 css = true;
-
-			var jsLinks = [
-				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
-				'http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js',
-				'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
-				'js/app.min.js',
-				'js/lazyLoad.js'
-			]; 
-
-			var cssLinks = [
-				'css/min/style_1.min.css'
-			];
-
-			var result = '';
-
-			if (css) {
-				for (var i = 0; i < cssLinks.length; i++) {
-					result += '<link href="' + cssLinks[i] + '" rel="stylesheet">';
-				}
-			} 
-
-			if (js) {
-				for (var i = 0; i < jsLinks.length; i++) {
-					result += '<script src="' + jsLinks[i] + '"><\/script>';
-				}
-			}		
-
-			document.body.insertAdjacentHTML('beforeend', result);
-		}
-
-		document.addEventListener("DOMContentLoaded", printFiles);		
-	</script>
+	<link rel="stylesheet" href="css/parts/reset.css">
+	<link rel="stylesheet" href="css/min/style_2.min.css">
+	<link rel="stylesheet" href="css/parts/laptop.css">
+	<link rel="stylesheet" href="css/parts/mobile.css">
+	<link rel="stylesheet" href="css/parts/mobile.css">
+	<link rel="stylesheet" href="css/parts/slick.css">
+	<link rel="stylesheet" href="css/parts/tablet.css">
+	<link rel="stylesheet" href="css/parts/retina.css">
+	<link rel="stylesheet" href="css/parts/comments.css">
+	<link rel="stylesheet" href="css/parts/sidebar.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script src="js/app.min.js"></script>
+	<script src="js/lazyLoad.js"></script>
 
 </body>
 </html>

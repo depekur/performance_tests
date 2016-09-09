@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" href="css/base.min.css">
 
+	<?php require 'meta.php'; ?>
+
 	<style>
 		body {
 			width: 900px !important;
@@ -27,12 +29,13 @@
 				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
 				'http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js',
 				'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
-				'js/app.min.js'
+				'js/app.min.js',
+				'js/lazyLoad.js'
 			]; 
 
 			var cssLinks = [
 				'css/parts/reset.css',
-				'css/min/style_1.min.css',
+				'css/min/style_2.min.css',
 				'css/parts/laptop.css',
 				'css/parts/mobile.css',
 				'css/parts/slick.css',

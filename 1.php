@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Performance tests</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500&subset=cyrillic" rel="stylesheet">
+	<?php require 'meta.php'; ?>
+
 
 	<link href="css/min/style_1.min.css" rel="stylesheet">
 
