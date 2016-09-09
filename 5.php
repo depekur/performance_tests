@@ -31,7 +31,7 @@
 				'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
 				'http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js',
 				'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js',
-				'js/app.min.js',
+				'js/three.min.js',
 				'js/lazyLoad.js'
 			]; 
 
@@ -55,14 +55,26 @@
 				}
 			} 
 
+			document.body.insertAdjacentHTML('beforeend', result);
+
 			if (js) {
 				for (var i = 0; i < jsLinks.length; i++) {
-					result += '<script src="' + jsLinks[i] + '"><\/script>';
-				}
-			}		
+					var script = document.createElement('script');
+					script.src = jsLinks[i];
 
-			document.body.insertAdjacentHTML('beforeend', result);
+					if (script.src == 'js/lazyLoad.js') {
+						script.onload = function() {
+							lazyImg();
+						}
+					}
+
+					document.body.appendChild(script);					
+
+					//result += '<script src="' + jsLinks[i] + '"><\/script>';
+				}
+			}
 		}
+
 
 		document.addEventListener("DOMContentLoaded", printFiles);		
 	</script>

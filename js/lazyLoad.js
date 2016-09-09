@@ -25,14 +25,19 @@ function lazyLoadImages() {
 }
 
 
+
+
+
 (function lazyImg() {
-	$('img.lazy-load').each(function() {
-		var src = $(this).data('src');
-		$(this).attr('src', src);
-		$(this).one('load', function(event) {
-			if (this.complete) {
-				$(this).removeAttr('data-src');
-			}
+	$(document).ready(function(){
+		$('img.lazy-load').each(function() {
+			var src = $(this).data('src');
+			$(this).attr('src', src);
+			$(this).one('load', function(event) {
+				if (this.complete) {
+					$(this).removeAttr('data-src');
+				}
+			});
 		});
-	});
+	})	
 })();
