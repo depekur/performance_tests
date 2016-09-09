@@ -1,26 +1,38 @@
 function lazyLoadImages() {
+	var img = $('.lazy-load');
 	var screenHeight = window.innerHeight || document.documentElement.clientHeight || getElementsByTagName('body')[0].clientHeight;
 
+	$(window).on('scroll', function() {
+		//img.each(function() {
+			var top = img.offset().top,
+				 src = img.data('src');
 
-	$(window).on('scroll.percents', function() {
-		if ($(this).scrollTop() > when) {
-			crazyPercentsCounters();
-			$(window).off('scroll.percents');
-		}
+			var bottom = top + img.height();
+
+			if ($(document).scrollTop() > top ) {
+
+			}
+			
+		//});
+		
+		console.log('screenHeight: ' + screenHeight);
+		console.log('img.top: ' + top);
+		console.log('img.bottom: ' + bottom);
+		console.log('scrollTop: ' + $(document).scrollTop());
+		console.log('___________________________________');
+		//console.log(img);
 	});
 }
 
 
-function initCounter() {
-	var sectionWithCounters = $('.rating');
-	var topPos = sectionWithCounters.offset().top + 30;
-
-	
-
-	if (sectionWithCounters.offset().top < screenHeight) {
-		crazyPercentsCounters();
-	} else {
-		var when = $('.second-screen').offset().top/2;
-		
-	}	
-};
+(function lazyImg() {
+	$('img.lazy-load').each(function() {
+		var src = $(this).data('src');
+		$(this).attr('src', src);
+		$(this).one('load', function(event) {
+			if (this.complete) {
+				$(this).removeAttr('data-src');
+			}
+		});
+	});
+})();
