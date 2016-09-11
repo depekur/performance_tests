@@ -6,8 +6,8 @@
 
 #1. [< 10кб файл в head, остальное кучей файлов перед /body](http://lab.depekour.com/frontend/4.php)
 	PageSpeed Tools
-	мобильные - 62 / 100 
-	десктоп - 82 / 100 
+	мобильные - 67 / 100 
+	десктоп - 85 / 100 
 
 ![devtools](http://lab.depekour.com/frontend/results/2_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/2_2.png)
@@ -16,7 +16,13 @@
 
 
 #2. [< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load](http://lab.depekour.com/frontend/5.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 85 / 100 
 
+![devtools](http://lab.depekour.com/frontend/results/7_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/7_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/7_3.PNG)
 
 
 
