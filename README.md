@@ -22,9 +22,10 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/7_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/7_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/7_3.PNG)
 
+[график webpagetest.org](http://lab.depekour.com/frontend/results/7_3.PNG))
 
+<hr>
 
 #3. [< 10кб инлайн в head, остальное кучей файлов перед /body](http://lab.depekour.com/frontend/10.php)
 	PageSpeed Tools
@@ -33,7 +34,7 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/3_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/3_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/3_3.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/3_3.PNG)
 
 
 <hr>
@@ -45,7 +46,7 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/4_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/4_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/4_3.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/4_3.PNG)
 
 
 <hr>
@@ -57,30 +58,36 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/8_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/8_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/8_3.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/8_3.PNG)
 
 
 
 
 
 #6. [ < 10кб файл в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/2.php)
+
+
+
+
+#7. [< 10кб инлайн в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/13.php)
+	PageSpeed Tools
+	мобильные - 64 / 100 
+	десктоп - 89 / 100 
+
+![devtools](http://lab.depekour.com/frontend/results/10_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/10_2.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/10_3.PNG)
+
+
+
+#8. [< 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load](http://lab.depekour.com/frontend/2.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 86 / 100 
 
 ![devtools](http://lab.depekour.com/frontend/results/9_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/9_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/9_3.PNG)
-
-
-
-#7. [< 10кб инлайн в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/13.php)
-
-
-
-
-#8. [< 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load](http://lab.depekour.com/frontend/2.php)
-
+[график webpagetest.org](http://lab.depekour.com/frontend/results/9_3.PNG)
 
 
 
@@ -134,7 +141,7 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/6_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/6_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/6_3.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/6_3.PNG)
 
 <hr>
 
@@ -146,6 +153,6 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/5_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/5_2.PNG)
-![webpagetest.org](http://lab.depekour.com/frontend/results/5_3.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/5_3.PNG)
 
 <hr>
