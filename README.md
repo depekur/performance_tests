@@ -4,7 +4,8 @@
 
 
 
-#1. [< 10кб файл в head, остальное кучей файлов перед /body](http://lab.depekour.com/frontend/4.php)
+#1. < 10кб файл в head, остальное кучей файлов перед /body
+[link](http://lab.depekour.com/frontend/4.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 85 / 100 
@@ -15,7 +16,8 @@
 <hr>
 
 
-#2. [< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load](http://lab.depekour.com/frontend/5.php)
+#2.< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load
+[link](http://lab.depekour.com/frontend/5.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 85 / 100 
@@ -27,7 +29,8 @@
 
 <hr>
 
-#3. [< 10кб инлайн в head, остальное кучей файлов перед /body](http://lab.depekour.com/frontend/10.php)
+#3. < 10кб инлайн в head, остальное кучей файлов перед /body
+[link](http://lab.depekour.com/frontend/10.php)
 	PageSpeed Tools
 	мобильные - 63 / 100 
 	десктоп - 82 / 100 
@@ -39,7 +42,8 @@
 
 <hr>
 
-#4. [все стили файлами в head, скрипты перед /body](http://lab.depekour.com/frontend/8.php)
+#4. все стили файлами в head, скрипты перед /body
+[link](http://lab.depekour.com/frontend/8.php)
 	PageSpeed Tools
 	мобильные - 62 / 100 
 	десктоп - 81 / 100 
@@ -51,7 +55,8 @@
 
 <hr>
 
-#5. [все стили файлами в head, скрипты перед /body + lazy load для js](http://lab.depekour.com/frontend/9.php)
+#5. все стили файлами в head, скрипты перед /body + lazy load для js
+[link](http://lab.depekour.com/frontend/9.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 83 / 100 
@@ -61,15 +66,19 @@
 [график webpagetest.org](http://lab.depekour.com/frontend/results/8_3.PNG)
 
 
+<hr>
 
 
-
-#6. [ < 10кб файл в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/2.php)
-
-
+#6. < 10кб файл в head, остальное минифицированными перед /body
+[link](http://lab.depekour.com/frontend/2.php)
 
 
-#7. [< 10кб инлайн в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/13.php)
+<hr>
+
+
+#7. < 10кб инлайн в head, остальное минифицированными перед /body
+
+[link](http://lab.depekour.com/frontend/13.php)
 	PageSpeed Tools
 	мобильные - 64 / 100 
 	десктоп - 89 / 100 
@@ -78,9 +87,11 @@
 ![webpagetest.org](http://lab.depekour.com/frontend/results/10_2.PNG)
 [график webpagetest.org](http://lab.depekour.com/frontend/results/10_3.PNG)
 
+<hr>
 
+#8. < 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load
 
-#8. [< 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load](http://lab.depekour.com/frontend/2.php)
+[link](http://lab.depekour.com/frontend/2.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 86 / 100 
@@ -90,33 +101,58 @@
 [график webpagetest.org](http://lab.depekour.com/frontend/results/9_3.PNG)
 
 
+<hr>
 
+#9. < 10кб css файл в head, остальные стили кучей файлов перед /body + Lazy Load
 
-#9. [< 10кб css файл в head, остальные стили кучей файлов перед /body + Lazy Load](http://lab.depekour.com/frontend/3.php)
+[link](http://lab.depekour.com/frontend/3.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 83 / 100 
 
-
-
-
-
-
-
-
-#10. [< 10кб файл в head, остальное минифицированными перед /body  + Lazy Load](http://lab.depekour.com/frontend/14.php)
-
-
-
+![devtools](http://lab.depekour.com/frontend/results/11_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/11_1.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/11_3.PNG)
 
 
 
-
-#11. [< 10кб инлайн в head, остальное минифицированными перед /body  + Lazy Load](http://lab.depekour.com/frontend/6.php)
-
+<hr>
 
 
 
+#10. < 10кб файл в head, остальное минифицированными перед /body  + Lazy Load
+[link](http://lab.depekour.com/frontend/14.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 86 / 100 
+
+![devtools](http://lab.depekour.com/frontend/results/12_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/12_2.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/12_3.PNG)
 
 
-#12. [весь css в 1 файле в head, скрипты перед /body](http://lab.depekour.com/frontend/1.php)
+<hr>
+
+
+
+
+#11. < 10кб инлайн в head, остальное минифицированными перед /body  + Lazy Load
+[link](http://lab.depekour.com/frontend/6.php)
+	PageSpeed Tools
+	мобильные - 67 / 100
+	десктоп -  88 / 100
+
+![devtools](http://lab.depekour.com/frontend/results/13_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/13_2.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/13_3.PNG)
+
+
+<hr>
+
+
+
+#12. весь css в 1 файле в head, скрипты перед /body
+[link](http://lab.depekour.com/frontend/1.php)
 
 	PageSpeed Tools
 	мобильные - 67 / 100 
@@ -129,12 +165,15 @@
 
 
 
-#13. [весь css в 1 файле в head, скрипты перед /body  + Lazy Load](http://lab.depekour.com/frontend/7.php)
+#13. весь css в 1 файле в head, скрипты перед /body  + Lazy Load
+[link](http://lab.depekour.com/frontend/7.php)
 
 
+<hr>
 
 
-#14. [весь css и js в head](http://lab.depekour.com/frontend/12.php)
+#14. весь css и js в head
+[link](http://lab.depekour.com/frontend/12.php)
 	PageSpeed Tools
 	мобильные - 62 / 100 
 	десктоп - 70 / 100 
@@ -146,7 +185,8 @@
 <hr>
 
 
-#15. [весь css инлайн в head, скрипты инлайн перед /body](http://lab.depekour.com/frontend/11.php)
+#15. весь css инлайн в head, скрипты инлайн перед /body
+[link](http://lab.depekour.com/frontend/11.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 93 / 100 
@@ -154,5 +194,3 @@
 ![devtools](http://lab.depekour.com/frontend/results/5_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/5_2.PNG)
 [график webpagetest.org](http://lab.depekour.com/frontend/results/5_3.PNG)
-
-<hr>
