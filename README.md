@@ -51,13 +51,26 @@
 <hr>
 
 #5. [все стили файлами в head, скрипты перед /body + lazy load для js](http://lab.depekour.com/frontend/9.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 83 / 100 
+
+![devtools](http://lab.depekour.com/frontend/results/8_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/8_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/8_3.PNG)
 
 
 
 
 
 #6. [ < 10кб файл в head, остальное минифицированными перед /body](http://lab.depekour.com/frontend/2.php)
+	PageSpeed Tools
+	мобильные - 67 / 100 
+	десктоп - 86 / 100 
 
+![devtools](http://lab.depekour.com/frontend/results/9_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/9_2.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/9_3.PNG)
 
 
 
