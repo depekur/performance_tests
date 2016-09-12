@@ -19,6 +19,7 @@
 
 ##2.< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/5.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 85 / 100 
@@ -32,6 +33,7 @@
 
 ##3. < 10кб инлайн в head, остальное кучей файлов перед /body
 [link](http://lab.depekour.com/frontend/10.php)
+
 	PageSpeed Tools
 	мобильные - 63 / 100 
 	десктоп - 82 / 100 
@@ -45,6 +47,7 @@
 
 ##4. все стили файлами в head, скрипты перед /body
 [link](http://lab.depekour.com/frontend/8.php)
+
 	PageSpeed Tools
 	мобильные - 62 / 100 
 	десктоп - 81 / 100 
@@ -58,6 +61,7 @@
 
 ##5. все стили файлами в head, скрипты перед /body + lazy load для js
 [link](http://lab.depekour.com/frontend/9.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 83 / 100 
@@ -80,6 +84,7 @@
 ##7. < 10кб инлайн в head, остальное минифицированными перед /body
 
 [link](http://lab.depekour.com/frontend/13.php)
+
 	PageSpeed Tools
 	мобильные - 64 / 100 
 	десктоп - 89 / 100 
@@ -93,6 +98,7 @@
 ##8. < 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load
 
 [link](http://lab.depekour.com/frontend/2.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 86 / 100 
@@ -107,6 +113,7 @@
 ##9. < 10кб css файл в head, остальные стили кучей файлов перед /body + Lazy Load
 
 [link](http://lab.depekour.com/frontend/3.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 83 / 100 
@@ -123,6 +130,7 @@
 
 ##10. < 10кб файл в head, остальное минифицированными перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/14.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 86 / 100 
@@ -139,6 +147,7 @@
 
 ##11. < 10кб инлайн в head, остальное минифицированными перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/6.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100
 	десктоп -  88 / 100
@@ -169,6 +178,7 @@
 
 ##13. весь css в 1 файле в head, скрипты перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/7.php)
+
 	PageSpeed Tools
 	мобильные - 62 / 100 
 	десктоп - 70 / 100 
@@ -182,6 +192,7 @@
 
 ##14. весь css и js в head
 [link](http://lab.depekour.com/frontend/12.php)
+
 	PageSpeed Tools
 	мобильные - 62 / 100 
 	десктоп - 70 / 100 
@@ -195,6 +206,7 @@
 
 ##15. весь css инлайн в head, скрипты инлайн перед /body
 [link](http://lab.depekour.com/frontend/11.php)
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 93 / 100 
