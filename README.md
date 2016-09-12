@@ -4,8 +4,9 @@
 
 
 
-#1. < 10кб файл в head, остальное кучей файлов перед /body
-[link](http://lab.depekour.com/frontend/4.php)
+##1. < 10кб файл в head, остальное кучей файлов перед /body
+[link](http://lab.depekour.com/frontend/4.php)<br>
+
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 85 / 100 
@@ -16,7 +17,7 @@
 <hr>
 
 
-#2.< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load
+##2.< 10кб инлайн в head, остальное кучей файлов перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/5.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
@@ -29,7 +30,7 @@
 
 <hr>
 
-#3. < 10кб инлайн в head, остальное кучей файлов перед /body
+##3. < 10кб инлайн в head, остальное кучей файлов перед /body
 [link](http://lab.depekour.com/frontend/10.php)
 	PageSpeed Tools
 	мобильные - 63 / 100 
@@ -42,7 +43,7 @@
 
 <hr>
 
-#4. все стили файлами в head, скрипты перед /body
+##4. все стили файлами в head, скрипты перед /body
 [link](http://lab.depekour.com/frontend/8.php)
 	PageSpeed Tools
 	мобильные - 62 / 100 
@@ -55,7 +56,7 @@
 
 <hr>
 
-#5. все стили файлами в head, скрипты перед /body + lazy load для js
+##5. все стили файлами в head, скрипты перед /body + lazy load для js
 [link](http://lab.depekour.com/frontend/9.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
@@ -69,14 +70,14 @@
 <hr>
 
 
-#6. < 10кб файл в head, остальное минифицированными перед /body
+##6. < 10кб файл в head, остальное минифицированными перед /body
 [link](http://lab.depekour.com/frontend/2.php)
 
 
 <hr>
 
 
-#7. < 10кб инлайн в head, остальное минифицированными перед /body
+##7. < 10кб инлайн в head, остальное минифицированными перед /body
 
 [link](http://lab.depekour.com/frontend/13.php)
 	PageSpeed Tools
@@ -89,7 +90,7 @@
 
 <hr>
 
-#8. < 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load
+##8. < 10кб css файл в head, остальные стили в 1 мин. файле перед /body + Lazy Load
 
 [link](http://lab.depekour.com/frontend/2.php)
 	PageSpeed Tools
@@ -103,7 +104,7 @@
 
 <hr>
 
-#9. < 10кб css файл в head, остальные стили кучей файлов перед /body + Lazy Load
+##9. < 10кб css файл в head, остальные стили кучей файлов перед /body + Lazy Load
 
 [link](http://lab.depekour.com/frontend/3.php)
 	PageSpeed Tools
@@ -120,7 +121,7 @@
 
 
 
-#10. < 10кб файл в head, остальное минифицированными перед /body  + Lazy Load
+##10. < 10кб файл в head, остальное минифицированными перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/14.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
@@ -136,7 +137,7 @@
 
 
 
-#11. < 10кб инлайн в head, остальное минифицированными перед /body  + Lazy Load
+##11. < 10кб инлайн в head, остальное минифицированными перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/6.php)
 	PageSpeed Tools
 	мобильные - 67 / 100
@@ -151,7 +152,7 @@
 
 
 
-#12. весь css в 1 файле в head, скрипты перед /body
+##12. весь css в 1 файле в head, скрипты перед /body
 [link](http://lab.depekour.com/frontend/1.php)
 
 	PageSpeed Tools
@@ -160,19 +161,26 @@
 
 ![devtools](http://lab.depekour.com/frontend/results/1_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/1_2.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/1_2.PNG)
 
 <hr>
 
 
 
-#13. весь css в 1 файле в head, скрипты перед /body  + Lazy Load
+##13. весь css в 1 файле в head, скрипты перед /body  + Lazy Load
 [link](http://lab.depekour.com/frontend/7.php)
+	PageSpeed Tools
+	мобильные - 62 / 100 
+	десктоп - 70 / 100 
 
+![devtools](http://lab.depekour.com/frontend/results/14_1.PNG)
+![webpagetest.org](http://lab.depekour.com/frontend/results/14_2.PNG)
+[график webpagetest.org](http://lab.depekour.com/frontend/results/14_3.PNG)
 
 <hr>
 
 
-#14. весь css и js в head
+##14. весь css и js в head
 [link](http://lab.depekour.com/frontend/12.php)
 	PageSpeed Tools
 	мобильные - 62 / 100 
@@ -185,7 +193,7 @@
 <hr>
 
 
-#15. весь css инлайн в head, скрипты инлайн перед /body
+##15. весь css инлайн в head, скрипты инлайн перед /body
 [link](http://lab.depekour.com/frontend/11.php)
 	PageSpeed Tools
 	мобильные - 67 / 100 
