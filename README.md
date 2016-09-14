@@ -1,3 +1,5 @@
+##[результаты в виде таблицы](https://github.com/depekur/performance_tests/blob/master/performance_tests.xlsx?raw=true)
+
 #### для тестов в консоли используются настройки интернета Regular 3G (100ms, 750kb/s, 250kb/s)
 
 #### webpagetest.org - 5 тестов - настройки интернета Mobile 3G - Slow (780Kbps/330 Kbps 200ms)
