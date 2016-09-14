@@ -4,6 +4,8 @@
 
 
 
+
+
 ##1. < 10кб файл в head, остальное кучей файлов перед /body
 [link](http://lab.depekour.com/frontend/4.php)<br>
 [график webpagetest.org](http://lab.depekour.com/frontend/results/2_3.PNG)
@@ -11,6 +13,15 @@
 	PageSpeed Tools
 	мобильные - 67 / 100 
 	десктоп - 85 / 100 
+
+	devtools: 
+
+	dom
+		3.37
+
+
+	load
+		12.02
 
 ![devtools](http://lab.depekour.com/frontend/results/2_1.PNG)
 ![webpagetest.org](http://lab.depekour.com/frontend/results/2_2.png)
